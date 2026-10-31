@@ -1,6 +1,6 @@
 # Nemu
 
-TUI en Go para ingresar un hostname, consultar su resolución DNS y presentar un resultado asociado al nombre consultado. La aplicación implementa **US-001 (PM-001)** y clasifica los resultados según **US-002 (PM-002)**.
+TUI en Go para ingresar un hostname, consultar su resolución DNS y presentar un resultado asociado al nombre consultado.
 
 ## Requisitos
 
