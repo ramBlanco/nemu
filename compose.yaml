@@ -1,0 +1,14 @@
+services:
+  build:
+    build:
+      context: .
+      args:
+        GO_VERSION: ${GO_VERSION:?Set GO_VERSION from go.mod before building}
+    working_dir: /src
+    env_file: 
+      - path: ".env"
+        required: true
+    volumes:
+      - type: bind
+        source: ./dist
+        target: /out
